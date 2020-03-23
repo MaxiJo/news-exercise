@@ -1,0 +1,53 @@
+{
+    "posts": [
+      { "id": 1, 
+        "title": "json-server", 
+        "author": "typicode" 
+      }
+    ],
+    "comments": [
+      { "id": 1, 
+        "body": "some comment", 
+        "postId": 1 
+      }
+    ],
+    "profile": { 
+      "name": "typicode" 
+    },
+    "news":[
+      { "id"   :1,
+        "asset" :"https://s.yimg.com/ny/api/res/1.2/PqbiUCJp2oKlRmFQAwOboA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/uk.sporting.news/bcd012f2eac1600912ab22844bbb76e1" ,
+        "title" :"curry goes lakers",
+        "resume":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "contents":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "id"   :2,
+        "asset" :"https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1531549856/180713-smith-boby-lebron-hero-2_tc6vfd" ,
+        "title" :"Lakers No More",
+        "resume":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "contents":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "id"   :3,
+        "asset" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTft4kPYp_wzCHLxf19yZxg4b4-63V6crAVKbQLHI8lUQGHEqG6zw&s" ,
+        "title" :"Raptor Predates NBA",
+        "resume":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "contents":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "id"   :4,
+        "asset" :"https://media1.s-nbcnews.com/j/newscms/2020_10/3209551/ss-200130-twip-01_e9760d3e5a4356cf3e1abdfdcccd10d0.fit-760w.jpg" ,
+        "title" :"NEWS BREAK : KOBE helicopter Crash",
+        "resume":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "contents":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "id"   :5,
+        "asset" :"https://i2.wp.com/metro.co.uk/wp-content/uploads/2020/01/Untitled-1-19c1.jpg?quality=90&strip=all&zoom=1&resize=644%2C338&ssl=1",
+        "title" :"NEWS:RIP Mamba Legend",
+        "resume":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "contents":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ]
+  }
