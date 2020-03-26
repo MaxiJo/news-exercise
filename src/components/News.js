@@ -1,28 +1,34 @@
 import React from 'react';
 import { Component} from 'react';
-import '../App.css';
-
+import {  Card, CardImg, CardText, CardBody,
+  CardTitle, Col } from 'reactstrap';
 
 export default class News extends Component{
-    componentDidMount(){
-        //const assets = imageLoader()
-        //this.setState({assets})
-        let url="http://localhost:3001/news/:id"
+  constructor(props){
+    super(props);
+    this.state={
+      news:[],
+    };
+  }  
+  componentDidMount(){
+        let url=`http://localhost:3001/news/`
         fetch(url)
           .then(resp => resp.json())
           .then(data => {
-            let news = data.map((news,index) =>{
+            let news = data.map((news,key) =>{
               return(
-                <div  key={index}>
-                    <div style={{width:"40%"}}>
-                      <img src={news.asset} alt ="newsimg"/>
-                      
-                    </div>
-                    <div style={{width:"60%"}}>
-                      <h2>{news.title}</h2><br/>
-                      <p>{news.contents}</p>
-                    </div>
-                </div>   
+                <div key={key}>
+                  <Col sm ='6' md={{offset : 3}} >
+                    <Card>
+                        <CardImg top width="50%" src={news.asset} alt="newsImg" />
+                        <CardBody>
+                        <CardTitle>{news.title}</CardTitle>
+                        <CardText>{news.contents}</CardText>
+                        </CardBody>
+                    </Card>
+                  </Col>
+              </div>
+                
               )
             })
             this.setState({news: news});
@@ -30,9 +36,9 @@ export default class News extends Component{
       }
     render(){
         return(
-            <div >
-                {this.state.news}
-            </div>       
+              <div >
+                  {this.state.news}
+              </div>      
         )
     }
 }
