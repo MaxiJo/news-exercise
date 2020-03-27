@@ -1,19 +1,4 @@
 {
-    "posts": [
-      { "id": 1, 
-        "title": "json-server", 
-        "author": "typicode" 
-      }
-    ],
-    "comments": [
-      { "id": 1, 
-        "body": "some comment", 
-        "postId": 1 
-      }
-    ],
-    "profile": { 
-      "name": "typicode" 
-    },
     "news":[
       { "id"   :1,
         "asset" :"https://s.yimg.com/ny/api/res/1.2/PqbiUCJp2oKlRmFQAwOboA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/uk.sporting.news/bcd012f2eac1600912ab22844bbb76e1" ,
